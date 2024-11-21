@@ -1,0 +1,77 @@
+.job-details-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.input-group {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.input-field {
+    padding: 6px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+}
+
+.job-description-input {
+    height: 212px;
+}
+
+.horizontal-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.input-group-horizontal {
+    width: 48%;
+    box-sizing: border-box;
+}
+
+.input-group-horizontal label {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.input-group-horizontal input {
+    padding: 6px;
+    font-size: 12px;
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.work-experience {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.half-width {
+    width: 48%;
+}
+
+.select-no-arrow .react-select__control {
+    background-image: none;
+}

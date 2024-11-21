@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './Header/Header';
+import TabSwitcher from './TabSwitcher/TabSwitcher';
+import UploadSection from './UploadSection/UploadSection';
+import Clients from './Client/Clients';
+import Recruiters from './Recruiters/Recruiters';
+import MatTab from './MatTab/MatTab';
+import ButtonGroup from './Buttons/ButtonGroup';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header/>
+      <div className="main-container">
+        <TabSwitcher />
+        <div className="right-section">
+          <UploadSection />
+          <Clients />
+          <Recruiters className="recruiters-container"/>
+          <MatTab className="mattab-container"/>
+          <ButtonGroup/>
+        </div>
+      </div>
+    </>
   );
 }
 

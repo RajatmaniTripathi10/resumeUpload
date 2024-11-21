@@ -1,0 +1,22 @@
+.button {
+    width: 107px;
+    height: 45px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.button:last-child {
+    margin-right: 0;
+}
+
+.button.save {
+    background-color: #0D77D4;
+    color: white;
+}
+
+.button.cancel {
+    background-color: #f0f0f0;
+    color: black;
+}
